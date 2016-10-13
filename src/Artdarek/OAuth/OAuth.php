@@ -77,7 +77,7 @@ class OAuth
             $this->_client_id = Config::get("oauth-4-laravel.consumers.$service.client_id");
             $this->_client_secret = Config::get("oauth-4-laravel.consumers.$service.client_secret");
             $this->_scope = Config::get("oauth-4-laravel.consumers.$service.scope", array() );
-            $this->_api_version = Config::get("oauth-4-laravel::consumers.$service.api_version");
+            $this->_api_version = Config::get("oauth-4-laravel.consumers.$service.api_version");
 
         // esle try to find config in packages configs
         } else {
@@ -85,7 +85,7 @@ class OAuth
             $this->_client_id = Config::get("oauth-4-laravel::consumers.$service.client_id");
             $this->_client_secret = Config::get("oauth-4-laravel::consumers.$service.client_secret");
             $this->_scope = Config::get("oauth-4-laravel::consumers.$service.scope", array() );
-            $this->_api_version = Config::get("oauth-4-laravel::consumers.$service.api_version");
+            $this->_api_version = Config::get("oauth-4-laravel.consumers.$service.api_version");
         }
     }
 
