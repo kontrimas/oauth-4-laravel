@@ -5,12 +5,12 @@
     "keywords": ["OAuth", "Lusitanian", "laravel", "php"],
     "homepage": "https://github.com/artdarek/oauth-4-laravel",
     "license": "MIT",
-        "repositories": [
+    "repositories": [
        {
             "type": "vcs",
             "url": "https://github.com/kontrimas/PHPoAuthLib.git"
        }
-   ],
+    ],
     "authors": [
         {
             "name": "Artdarek",
