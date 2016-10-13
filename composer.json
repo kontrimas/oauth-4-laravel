@@ -1,15 +1,11 @@
 {
-    "name": "kontrimas/oauth-4-laravel",
+    "name": "artdarek/oauth-4-laravel",
     "type": "library",
     "description": "OAuth Service Provider for Laravel 4",
     "keywords": ["OAuth", "Lusitanian", "laravel", "php"],
     "homepage": "https://github.com/artdarek/oauth-4-laravel",
     "license": "MIT",
-    "repositories": [
-       {
-            "type": "vcs",
-            "url": "https://github.com/Zizaco/ardent.git"
-       },
+        "repositories": [
        {
             "type": "vcs",
             "url": "https://github.com/kontrimas/oauth.git"
