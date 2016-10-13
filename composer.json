@@ -20,7 +20,7 @@
     ],
     "require": {
         "php": ">=5.3",     
-        "kontrimas/oauth": "~0.3"
+        "lusitanian/oauth": "~0.3"
     },
     "require-dev": {
         "illuminate/support": "~4"
